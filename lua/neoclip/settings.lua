@@ -3,6 +3,7 @@ local M = {}
 local settings = {
     history = 1000,
     enable_persistent_history = false,
+    minimum_length_limit = 5,
     length_limit = 1048576,
     continuous_sync = false,
     db_path = vim.fn.stdpath("data") .. "/databases/neoclip.sqlite3",
